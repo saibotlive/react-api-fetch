@@ -1,6 +1,6 @@
 {
   "name": "react-api-fetch-test",
-  "homepage": ".",
+  "homepage": "https://saibotlive.github.io/react-api-fetch-test",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -26,6 +26,8 @@
   "scripts": {
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
+    "predeploy": "react-app-rewired build",
+    "deploy": "gh-pages -d build",
     "test": "react-app-rewired test --env=jsdom",
     "eject": "react-app-rewired eject"
   },
@@ -36,6 +38,7 @@
   "devDependencies": {
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
+    "gh-pages": "^1.1.0",
     "react-app-rewire-eslint": "^0.2.3"
   }
 }
