@@ -7,8 +7,6 @@ import configureStore from './store';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
-
-
 /*
 
 ///For persisting redux state to local storage///
@@ -38,7 +36,7 @@ const render = Component => {
     // Wrap App inside AppContainer
     <AppContainer>
       <Provider store={store}>
-        <BrowserRouter>
+        <BrowserRouter basename={`${process.env.NODE_ENV !== 'production' ? '/' : '/react-api-fetch-test'}`}>
           <Component />
         </BrowserRouter>
       </Provider>
