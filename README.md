@@ -2,7 +2,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Fetch test
 
-clone the repo
+- on Cmd line
+
+clone the repo:  eg(`git clone https://github.com/saibotlive/react-api-fetch-test.git`)
+
+enter the directory: eg(`cd react-api-fetch-test`)
 
 Install yarn globally: `npm i -g yarn`
 
