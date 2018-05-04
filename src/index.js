@@ -25,6 +25,7 @@ const saveState = state => {
 };
 
 const persistedState = loadState();
+
 */
 
 const store = configureStore();
